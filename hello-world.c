@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(void) {
-  printf("Hello world!\n");
+    printf("\x1b[1;31mHello world!\x1b[0m\n");
 
-  return 0;
+    return 0;
 }
